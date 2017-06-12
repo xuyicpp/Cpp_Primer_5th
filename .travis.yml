@@ -1,8 +1,1 @@
 language: cpp
-sudo: required
-dist: trusty
-compiler:
-- clang
-os:
-- linux
-ruby: 2.2.0
