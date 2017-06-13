@@ -1,1 +1,6 @@
 language: cpp
+compiler: gcc
+
+script: 
+  - g++ Test_travis_CI.cpp -o travis_gcc_cpp98
+  - ./travis_gcc_cpp98
