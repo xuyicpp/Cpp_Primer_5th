@@ -1,0 +1,3 @@
+AUTOMARK_OPTIONS=foreign
+noinst_PROGRAMS=Test_travis_CI
+Test_travis_CI_SOURCES=Test_travis_CI.cpp
