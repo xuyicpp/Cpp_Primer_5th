@@ -13,8 +13,6 @@ install:
   - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-5 90
 
 script: 
-  - g++ Test_travis_CI.cpp -std=c++11 -o travis_gcc_cpp11
-  - ./travis_gcc_cpp11
   - cd CH01
   - g++ ex1_3.cpp -std=c++11 -o ex1_3
   - ./ex1_3
