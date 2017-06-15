@@ -16,3 +16,8 @@ script:
   - cd CH01
   - g++ ex1_3.cpp -std=c++11 -o ex1_3
   - ./ex1_3
+
+  - cd ..
+  - cd CH02
+  - g++ ex1_3.cpp -std=c++11 -o ex1_3
+  - ./ex1_3
