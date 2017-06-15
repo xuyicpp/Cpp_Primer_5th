@@ -19,5 +19,54 @@ script:
 
   - cd ..
   - cd CH02
-  - g++ ex1_3.cpp -std=c++11 -o ex1_3
-  - ./ex1_3
+
+  - cd ..
+  - cd CH 03
+
+  - cd ..
+  - cd CH 04
+
+  - cd ..
+  - cd CH 05
+
+  - cd ..
+  - cd CH 06
+
+  - cd ..
+  - cd CH 07
+
+  - cd ..
+  - cd CH 08
+
+  - cd ..
+  - cd CH 09
+
+  - cd ..
+  - cd CH 10
+
+  - cd ..
+  - cd CH 11
+
+  - cd ..
+  - cd CH 12
+
+  - cd ..
+  - cd CH 13
+
+  - cd ..
+  - cd CH 14
+
+  - cd ..
+  - cd CH 15
+
+  - cd ..
+  - cd CH 16
+
+  - cd ..
+  - cd CH 17
+
+  - cd ..
+  - cd CH 18
+
+  - cd ..
+  - cd CH 19
