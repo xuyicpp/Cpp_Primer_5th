@@ -21,9 +21,9 @@ int main(int argc, char *argv[])
 		fin.open(argv[file]);
 		while(fin>>in)
 		{
+			total += in;
 			cout<<in<<endl;
 		}
-		total += in;
 		fin.clear();
 		fin.close();
 	}
