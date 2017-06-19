@@ -14,10 +14,10 @@ install:
 
 script: 
   - cd CH01
-  - g++ test_compile_mul_file.cpp -std=c++11 -o test_compile_mul_file
-  - ./test_compile_mul_file
   - g++ ex1_3.cpp -std=c++11 -o ex1_3
   - ./ex1_3
+  - g++ ex1_4.cpp -std=c++11 -o ex1_4
+  - ./ex1_4
 
   - cd ..
   - cd CH02
