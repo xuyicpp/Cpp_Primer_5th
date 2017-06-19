@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 	if(argc==1)			//quit if no argument
 	{
 		cerr<<"Usage: "<<argv[0]<<" filename[s]\n";
-		exit(EXIT_FAILUERE);
+		exit(EXIT_FAILURE);
 	}
 	ifstream fin;		//open stream
 	long count;
