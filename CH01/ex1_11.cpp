@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	ifstream fin;		//open stream
 	long count;
 	long total = 0;
-	int min=30,max=0,temp=0;
+	int min=30,max=0,temp=0,in;
 
 
 	for(int file=1;file<argc;file++)
