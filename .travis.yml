@@ -18,6 +18,8 @@ script:
   - ./ex1_3
   - g++ ex1_4.cpp -std=c++11 -o ex1_4
   - ./ex1_4
+  - g++ ex1_16.cpp -std=c++11 -o ex1_16
+  - ./ex1_16 ch01_16.txt
 
   - cd ..
   - cd CH02
