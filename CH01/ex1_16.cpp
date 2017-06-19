@@ -19,12 +19,10 @@ int main(int argc, char *argv[])
 	for(int file=1;file<argc;file++)
 	{
 		fin.open(argv[file]);
-		count = 0;
 		while(fin>>in)
 		{
 			cout<<in<<endl;
 		}
-		cout<<count<<" int in "<<argv[file]<<endl;
 		total += in;
 		fin.clear();
 		fin.close();
