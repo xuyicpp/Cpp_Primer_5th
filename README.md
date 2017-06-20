@@ -1,12 +1,12 @@
 # C-Primer-5th &middot; [![Build Status](https://travis-ci.org/xuyicpp/Cpp_Primer_5th.svg?branch=master)](https://travis-ci.org/xuyicpp/Cpp_Primer_5th) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
 
-##编译器声明(C++11)
+## 编译器声明(C++11)
 * Linux:g++ 5.0+
 ```python
 g++ some_ex.cpp -std=c++11 -o some_ex
 ```
 
-##目录
+## 目录
 - 第一章 开始
 - 第Ⅰ部分 C++基础
   - 第2章 变量和基本类型
