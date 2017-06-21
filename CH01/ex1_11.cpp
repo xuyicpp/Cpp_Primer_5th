@@ -11,26 +11,31 @@ int main(int argc, char *argv[])
 		exit(EXIT_FAILURE);
 	}
 	ifstream fin;		//open stream
-	long count;
-	long total = 0;
-	int min=40,max=0,in;
 
+	int v1,v2;
 
 	for(int file=1;file<argc;file++)
 	{
 		fin.open(argv[file]);
-		while(fin>>in)
-		{
-			if(in>max)
-				max=in;
-			if(in<min)
-				min=in;
-		}
+		
+		fin>>v1>>v2;
+
 		fin.clear();
 		fin.close();
 	}
-	for(int i=min+1;i<max;i++)
-		cout<<i<<" ";
+	
+	if(v1>v2)
+		while(v1>=v2)
+		{
+			cout<<v1<<" ";
+			v1--;
+		}
+	else
+		while(v1<=v2)
+		{
+			cout<<v1<<" ";
+			v1++;
+		}
 	cout<<endl;
 	return 0;
 }
