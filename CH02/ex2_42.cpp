@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 #include <string>
 #include "Sales_data.h"
 
@@ -11,7 +12,7 @@ int main(int argc, char *argv[])
 		cerr<<"Usage: "<<argv[0]<<" filename[s]\n";
 		exit(EXIT_FAILURE);
 	}
-	
+
 	ifstream fin;		//open stream
 	Sales_data data1,data2;
 	double price = 0;	//书的单价，用于计算销售收入
@@ -29,7 +30,7 @@ int main(int argc, char *argv[])
 	//计算销售收入
 	data2.revenue = data2.units_sold * price;
 
-	if (daat1.bookNo == data2.bookNo)
+	if (data1.bookNo == data2.bookNo)
 	{
 		unsigned totalCnt = data1.units_sold+data2.units_sold;
 		double totalRevenue = data1.revenue + data2.revenue;
