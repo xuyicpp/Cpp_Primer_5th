@@ -25,6 +25,8 @@ script:
 
   - cd ..
   - cd CH02
+  - g++ ex2_42.cpp -std=c++11 -o ex2_42
+  - ./ex2_42 saleList.txt
 
   - cd ..
   - cd CH03
