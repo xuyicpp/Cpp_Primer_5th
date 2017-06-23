@@ -9,7 +9,7 @@ g++ some_ex.cpp -std=c++11 -o some_ex
 ## 目录
 - 第1章 开始  [源码](https://github.com/xuyicpp/Cpp_Primer_5th/tree/master/CH01) [总结](http://blog.csdn.net/xy_cpp/article/details/73511608)
 - 第Ⅰ部分 C++基础
-  - 第2章 变量和基本类型 [源码](https://github.com/xuyicpp/Cpp_Primer_5th/tree/master/CH02) [总结]()
+  - 第2章 变量和基本类型 [源码](https://github.com/xuyicpp/Cpp_Primer_5th/tree/master/CH02) [总结](http://blog.csdn.net/xy_cpp/article/details/73613234)
   - 第3章 字符串、向量和数组 [源码](https://github.com/xuyicpp/Cpp_Primer_5th/tree/master/CH03) [总结]()
   - 第4章 表达式 [源码](https://github.com/xuyicpp/Cpp_Primer_5th/tree/master/CH04) [总结]()
   - 第5章 语句 [源码](https://github.com/xuyicpp/Cpp_Primer_5th/tree/master/CH05) [总结]()
