@@ -19,12 +19,14 @@ int main(int argc, char *argv[])
 	{
 		ifstream fin;		//open stream
 		fin.open(argv[file]);
-		getline(fin,str);
-
-		for(auto c : str)
+		
+		while(getline(fin,str))
 		{
+			for(auto c : str)
+			{
 			if(!ispunct(c))
 			str1 += c;
+			}
 		}
 
 		fin.clear();
