@@ -30,7 +30,7 @@ script:
 
   - cd ..
   - cd CH03
-   - g++ ex3_2.cpp -std=c++11 -o ex3_2
+  - g++ ex3_2.cpp -std=c++11 -o ex3_2
   - ./ex3_2 test_3_2.txt test_3_2.txt
 
   - cd ..
