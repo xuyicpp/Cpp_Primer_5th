@@ -26,8 +26,10 @@ int main(int argc, char *argv[])
 		if(file==2)
 		while(fin>>str2)
 			cout<<str2<<endl;
+
+		fin.clear();
+		fin.close();
 	}
 
-	fin.clear();
-	fin.close();
+	return 0;
 }
