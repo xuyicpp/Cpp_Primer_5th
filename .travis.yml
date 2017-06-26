@@ -36,6 +36,8 @@ script:
   - ./ex3_5 test_3_2.txt
   - g++ ex3_11.cpp -std=c++11 -o ex3_11
   - ./ex3_11 test_3_2.txt
+  - g++ ex3_17.cpp -std=c++11 -o ex3_17
+  - ./ex3_17 test_3_2.txt
 
   - cd ..
   - cd CH04
