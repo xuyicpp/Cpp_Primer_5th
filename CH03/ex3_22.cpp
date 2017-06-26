@@ -2,7 +2,6 @@
 #include <fstream>
 #include <cctype>
 #include <string>
-#include <vector>
 
 using namespace std;
 
@@ -21,7 +20,7 @@ int main(int argc, char *argv[])
 		ifstream fin;		//open stream
 		fin.open(argv[file]);
 
-		getline(fin , str)
+		getline(fin , str);
 
 		fin.clear();
 		fin.close();
