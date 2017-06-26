@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 	}
 
 	for(decltype(vi.size()) begin=0,end=vi.size()-1;
-		begin>end;begin++,end--)
+		begin>end ; begin++;end--)
 		cout<<(vi[begin]+vi[end])<<" ";
 
 	return 0;

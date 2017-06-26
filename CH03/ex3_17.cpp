@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 
 	for(auto s : vstr)		//C++11
 	{
-		for(auot &c ：s)
+		for(auto &c ：s)
 			c=toupper(c);
 		cout<<s<<endl;
 	}
