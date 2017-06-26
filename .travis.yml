@@ -42,6 +42,8 @@ script:
   - ./ex3_20 test_3_20.txt
   - g++ ex3_22.cpp -std=c++11 -o ex3_22
   - ./ex3_22 test_3_22.txt
+  - g++ ex3_23.cpp -std=c++11 -o ex3_23
+  - ./ex3_23 test_3_23.txt
 
   - cd ..
   - cd CH04
