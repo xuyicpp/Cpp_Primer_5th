@@ -4,11 +4,9 @@ dist: trusty
 
 before_install:
   # C++11
- 
 
 install: 
   # C++11
-  
 
 script: 
   - cd CH01
@@ -94,3 +92,4 @@ script:
 
   - cd ..
   - cd CH19
+  
