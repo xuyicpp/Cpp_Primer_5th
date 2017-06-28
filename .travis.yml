@@ -4,13 +4,11 @@ dist: trusty
 
 before_install:
   # C++11
-  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
-
+ 
 
 install: 
   # C++11
-  - sudo apt-get install -qq g++-5
-  - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-5 90
+  
 
 script: 
   - cd CH01
