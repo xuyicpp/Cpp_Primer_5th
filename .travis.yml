@@ -47,6 +47,8 @@ script:
 
   - cd ..
   - cd CH04
+  - g++ ex4_28.cpp -std=c++11 -o ex4_28
+  - ./ex4_28
 
   - cd ..
   - cd CH05
