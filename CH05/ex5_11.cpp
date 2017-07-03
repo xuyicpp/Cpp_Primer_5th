@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 		fin.open(argv[file]);
 		while(fin>>temp)
 		{
-			switch(ch)
+			switch(temp)
 			{
 				case 'a':
 				case 'e':
@@ -42,10 +42,14 @@ int main(int argc, char *argv[])
 					break;
 			}
 		}
+
+		fin.clear();
+		fin.close();
 	}
 
 	cout<<"the number of vowelCnt is:"<<vowelCnt<<endl;
-	cout<<"the number of space \\t \\n is:"<<
+	cout<<"the number of space \\t \\n is:"<<spaceCnt<<" "<<tabCnt
+	<<" "<<enterCnt<<endl;
 
 	return 0;
 }
