@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 	{
 		ifstream fin;		//open stream
 		fin.open(argv[file]);
-		while(fin>>temp)
+		while(cin.get(temp))
 		{
 			switch(temp)
 			{
