@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <cstdlib>		//for exit()
 
 using namespace std;
 
@@ -18,7 +19,7 @@ int main(int argc, char *argv[])
 	{
 		ifstream fin;		//open stream
 		fin.open(argv[file]);
-		while(cin.get(temp))
+		while(fin.get(temp))
 		{
 			switch(temp)
 			{

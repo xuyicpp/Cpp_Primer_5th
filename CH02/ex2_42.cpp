@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <cstdlib>		//for exit()
 #include "Sales_data.h"
 
 using namespace std;
