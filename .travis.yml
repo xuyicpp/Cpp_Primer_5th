@@ -52,6 +52,8 @@ script:
 
   - cd ..
   - cd CH05
+  - g++ ex5_11.cpp -std=c++11 -o ex5_11
+  - ./ex5_11 test_5_11.txt
 
   - cd ..
   - cd CH06
