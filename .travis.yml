@@ -55,7 +55,7 @@ script:
   - g++ ex5_11.cpp -std=c++11 -o ex5_11
   - ./ex5_11 test_5_11.txt
   - g++ ex5_20.cpp -std=c++11 -o ex5_20
-  - ./ex5_20 test_5_11.txt test_5_21.txt
+  - ./ex5_20 test_5_21.txt
   - g++ ex5_21.cpp -std=c++11 -o ex5_21
   - ./ex5_21 test_5_21.txt
 
