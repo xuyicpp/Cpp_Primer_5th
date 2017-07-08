@@ -61,6 +61,8 @@ script:
 
   - cd ..
   - cd CH06
+  - g++ ex6_12.cpp -std=c++11 -o ex6_12
+  - ./ex6_12 
 
   - cd ..
   - cd CH07
