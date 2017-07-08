@@ -26,7 +26,7 @@ bool hasUP(const string &s)
 
 void downString(string &s)
 {
-	for(auto a: s)
+	for(auto &a: s)
 	{
 		a=tolower(a);
 	}

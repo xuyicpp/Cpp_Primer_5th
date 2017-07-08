@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+//#include <string>
 #include "ex6.h"
 
 using namespace std;
