@@ -4,5 +4,6 @@
 
 源文件ex6_12.cpp中我把交换函数的声明放在了ex6.h这个头文件中了。函数的定义为了省事我就放在了ex6_12.cpp中。
 这一章的所有函数头文件都放在ex6.h。
+在头文件中定义的string要加上std::，而不要用using namespace std。也不要#include <string>
 
 ## 随笔
