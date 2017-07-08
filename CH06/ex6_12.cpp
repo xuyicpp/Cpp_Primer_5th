@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 #include "ex6.h"
 
 using namespace std;
