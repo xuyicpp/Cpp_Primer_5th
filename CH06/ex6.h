@@ -3,4 +3,8 @@
 
 void mySWAP(int &a, int &b);
 
+bool hasUP(const string &s);
+
+void downString(string &s);
+
 #endif
