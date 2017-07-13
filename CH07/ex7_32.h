@@ -23,11 +23,11 @@ public:
 void Window_mgr::clear()
 {
 	Screen myScreen(10, 20, 'X');
-	cout<<"清理之前myScreen的内容是： "<<endl;
-	cout<< myScreen.contents <<endl;
+	std::cout<<"清理之前myScreen的内容是： "<<std::endl;
+	std::cout<< myScreen.contents <<std::endl;
 	myScreen.contents = "";
-	cout<<"清理之后myScreen的内容是： "<<endl;
-	cout<< myScreen.contents <<endl;
+	std::cout<<"清理之后myScreen的内容是： "<<std::endl;
+	std::cout<< myScreen.contents <<std::endl;
 }
 
 #endif
