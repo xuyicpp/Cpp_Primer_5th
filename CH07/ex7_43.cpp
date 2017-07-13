@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	C c;	使用了类型C的默认构造函数
+	C c;	//使用了类型C的默认构造函数
 	cout << c.nd.val << endl;
 	return 0;
 }
