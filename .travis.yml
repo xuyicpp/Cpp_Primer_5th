@@ -70,6 +70,8 @@ script:
   
   - cd ..
   - cd CH07
+  - g++ ex7_32.cpp -std=c++11 -o ex7_32
+  - ./ex7_32
 
   - cd ..
   - cd CH08

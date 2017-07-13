@@ -14,7 +14,7 @@ g++ some_ex.cpp -std=c++11 -o some_ex
   - 第4章 表达式 [源码](https://github.com/xuyicpp/Cpp_Primer_5th/tree/master/CH04) [总结](http://blog.csdn.net/xy_cpp/article/details/73920792)
   - 第5章 语句 [源码](https://github.com/xuyicpp/Cpp_Primer_5th/tree/master/CH05) [总结](http://blog.csdn.net/xy_cpp/article/details/74177816)
   - 第6章 函数 [源码](https://github.com/xuyicpp/Cpp_Primer_5th/tree/master/CH06) [总结](http://blog.csdn.net/xy_cpp/article/details/74781751)
-  - 第7章 类 [源码](https://github.com/xuyicpp/Cpp_Primer_5th/tree/master/CH07) [总结]()
+  - 第7章 类 [源码](https://github.com/xuyicpp/Cpp_Primer_5th/tree/master/CH07) [总结](http://blog.csdn.net/xy_cpp/article/details/75044910)
 - 第Ⅱ部分 C++标准库
   - 第8章 IO库 [源码](https://github.com/xuyicpp/Cpp_Primer_5th/tree/master/CH08) [总结]()
   - 第9章 顺序容器 [源码](https://github.com/xuyicpp/Cpp_Primer_5th/tree/master/CH09) [总结]()
