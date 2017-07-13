@@ -13,7 +13,7 @@ friend void Window_mgr::clear();
 private:
 	unsigned height = 0, width = 0;
 	unsigned cursor = 0;
-	string contents;
+	std::string contents;
 public:
 	Screen() = default;		//默认的构造函数
 	Screen(unsigned ht, unsigned wd, char c)
